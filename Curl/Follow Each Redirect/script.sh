@@ -1,3 +1,5 @@
+#!/bin/bash
+
 #
 #	1.	Request the name of site
 #
