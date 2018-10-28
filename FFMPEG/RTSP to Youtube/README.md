@@ -5,7 +5,9 @@ The script uses your IP Camera address and YouTube stream information to Live st
 
 # How to Run
 
-./script.sh or bash script.sh
+```
+] ./script.sh
+```
 
 The script will prompt you for the RTSP URL, YouTube Stream URL, and also your YouTube Stream key.
 
