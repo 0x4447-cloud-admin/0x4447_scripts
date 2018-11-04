@@ -1,9 +1,10 @@
 #!/bin/bash
 
 #
-#	1.	Set variable with the path of Saved credentials file.
+#	1.	Create default directory and Set variable with the path of Saved credentials file.
 #
-SavedPath="$HOME/.0x4447"
+mkdir "$HOME/.0x4447" 1>/dev/null 2>&1
+SavedPath="$HOME/.0x4447/rtp_to_youtube"
 
 #
 #	2.	Set Variable ContinueScript to initial value of 0.
@@ -60,7 +61,7 @@ fi;
 #	6.	Check if Saved credentials doesn't exist or if it didn't have proper
 #       information.
 #
-if [ ! -f $SavedPath ] || [ $ContinueScript == "1" ]; then
+if [ ! -f "$SavedPath" ] || [ $ContinueScript == "1" ]; then
     
     #
     #	1.	Request the address of camera.
