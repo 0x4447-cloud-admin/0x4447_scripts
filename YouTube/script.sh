@@ -236,7 +236,7 @@ if [ "$advanced" == "Yes" ]; then
     
     echo "Enter the license of the video (enter 'youtube' or 'creativeCommon')";
     read -r license;
-    if [ ! -z "$license" ] || [ "$license" != "youtube" ] && [ "$license" != "creativeCommon" ]; then
+    if [ ! -z "$license" ] || [ "$license" == "youtube" ] && [ "$license" == "creativeCommon" ]; then
     license="--license=\"${license}\""
     fi;
 
