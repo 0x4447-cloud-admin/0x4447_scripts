@@ -7,6 +7,6 @@
 
 #### Method 2 
 
-(Primarily for Raspberry Pi as it utilizes HW Accelerator):
+(Primarily for Raspberry Pi as it utilizes HW Accelerator for better FPS):
 
 `vlc --fullscreen rtsp://:@<address|IP>:<port#>/`
